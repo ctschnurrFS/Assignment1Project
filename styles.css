@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+div#theGame {
+    grid-column: 2 / 2;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    padding-top: .5in;
+}
+
+td {
+    padding: 30px;
+    border: 2px solid black;
+}
+
+td.blank {
+    background-color: gray;
+}
+
+td.blue {
+    background-color: blue;
+}
+
+td.white {
+    background-color: white;
+}
+
+td.green {
+    background-color: lightgreen;
+}
+
+td.red {
+    background-color: red;
+}
+
+button {
+    font-size: 1.5em;
+    margin: 1% 2% 1% 2%;
+}
+
+div#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 6in;
+    min-width: 5in;
+    margin: auto;
+}
+
+button#randomButton {
+    align-self: flex-end;
+}
+
+p{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    margin: auto;
+}
+
+label {
+    margin: auto 5px;
+    font-size: 1.5em;
+}
