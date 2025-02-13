@@ -1,5 +1,4 @@
-// NEED TO FIX RESET - MAKE IT RESET THE SAME PUZZLE
-// ignore global scope requirement
+// making a test change
 
 const runGame = async () => {
     gameComplete = false;
