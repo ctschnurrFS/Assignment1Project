@@ -1,4 +1,4 @@
-// changing to test github actions
+// making another change to demonstrate github actions setup
 
 const runGame = async () => {
     gameComplete = false;
